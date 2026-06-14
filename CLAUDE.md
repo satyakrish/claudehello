@@ -6,17 +6,7 @@ This file governs how Claude operates in this repository. When assigned a GitHub
 
 ## Core Directive
 
-When given an issue:
-1. Confirm the issue has the label `ai-sdlc` — if not, stop and inform the human
-2. Read the issue fully — understand the **intent and goal**, not just the technical details
-3. Validate the issue: confirm acceptance criteria are clear and scope is bounded
-4. Plan: define branch name, list every file to create/modify, map plan to each acceptance criterion
-5. Build: create the branch, implement exactly the plan — nothing more
-6. Verify: run linting and available tests, confirm every acceptance criterion is met
-7. Open a PR: include plan, what changed, verification summary, AC confirmation, and how to test — iterate until CI is green
-8. Apply Claude's default rule structure throughout — non-negotiable
-9. Keep changes strictly within scope — flag anything out of scope, never implement it
-10. If verification or CI fails, iterate and fix until clean — only stop if a human explicitly decides otherwise
+When given an issue: validate → plan → build → verify → open PR. Iterate until CI is green. All review happens in the PR.
 
 ## Constraints
 
