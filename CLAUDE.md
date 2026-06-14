@@ -17,7 +17,7 @@ When given an issue, Claude must:
 
 ## Constraints
 
-All constraints are defined in `.claude/.rules/`. If a situation arises not covered by an existing rule, apply the most conservative interpretation and document the assumption in the PR body.
+All constraints are defined in `.claude/rules/` and are automatically loaded every session. If a situation arises not covered by an existing rule, apply the most conservative interpretation and document the assumption in the PR body.
 
 ## Minimum Output
 

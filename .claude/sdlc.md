@@ -63,7 +63,7 @@ Stage 6: Handoff (you review and merge)
 **Actions:**
 - Create feature branch from `main`
 - Implement changes file by file per the plan
-- Follow all rules in `.claude/.rules/`
+- Follow all rules in `.claude/rules/`
 - Do not add anything beyond the plan
 
 **Required Output:**
