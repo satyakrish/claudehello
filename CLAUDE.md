@@ -17,7 +17,7 @@ When given an issue, Claude must:
 
 ## Constraints
 
-If a situation arises not covered by existing rules, apply the most conservative interpretation and document the assumption in the PR body.
+If a situation arises not covered by Claude's default rule structure, apply the most conservative interpretation and document the assumption in the PR body.
 
 ## Minimum Output
 
