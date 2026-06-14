@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hello World</title>
+  <title>About</title>
   <style>
     * {
       box-sizing: border-box;
@@ -32,13 +32,19 @@
     }
     main {
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
+      gap: 1rem;
       min-height: calc(100vh - 48px);
     }
     h1 {
       font-size: 3rem;
       color: #1a202c;
+    }
+    p {
+      font-size: 1.125rem;
+      color: #4a5568;
     }
   </style>
 </head>
@@ -48,7 +54,8 @@
     <a href="about.html">About</a>
   </nav>
   <main>
-    <h1>Hello, World!</h1>
+    <h1>About</h1>
+    <p>A Hello World site built with GitHub Pages and Claude Code.</p>
   </main>
 </body>
 </html>

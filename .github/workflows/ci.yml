@@ -17,4 +17,4 @@ jobs:
 
       - name: Validate HTML
         run: |
-          npx --yes html-validate src/hello-world/index.html
+          npx --yes html-validate src/hello-world/index.html src/hello-world/about.html
