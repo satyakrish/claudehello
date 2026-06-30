@@ -216,3 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# AIDLC document local backups and Word lock/temp files (kept local, not committed)
+*_BACKUP_*.docx
+~$*.docx
